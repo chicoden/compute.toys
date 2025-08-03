@@ -414,7 +414,7 @@ export class Bindings {
                 host: undefined,
                 device: device.createBuffer({
                     size: storageSize,
-                    usage: GPUBufferUsage.STORAGE | GPUBufferUsage.COPY_SRC
+                    usage: GPUBufferUsage.STORAGE | GPUBufferUsage.COPY_SRC | GPUBufferUsage.COPY_DST
                 }),
                 layout: storageBuffer,
                 decl: ''
@@ -423,7 +423,7 @@ export class Bindings {
                 host: undefined,
                 device: device.createBuffer({
                     size: storageSize,
-                    usage: GPUBufferUsage.STORAGE | GPUBufferUsage.COPY_SRC
+                    usage: GPUBufferUsage.STORAGE | GPUBufferUsage.COPY_SRC | GPUBufferUsage.COPY_DST
                 }),
                 layout: storageBuffer,
                 decl: ''
