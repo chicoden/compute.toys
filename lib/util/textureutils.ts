@@ -191,5 +191,6 @@ export const defaultTextures: Texture[] = [
     { img: '/textures/noise1.png' },
     { img: '/textures/noise2.png' },
     { img: '/textures/noise3.png' },
-    { img: '/textures/noise4.png' }
+    { img: '/textures/noise4.png' },
+    { img: '/textures/moon_cubemap.png' }
 ];
